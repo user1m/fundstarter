@@ -1,0 +1,534 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fundify\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-30 08:55-0500\n"
+"PO-Revision-Date: 2013-07-30 08:55-0500\n"
+"Last-Translator: Spencer Finnell <spencerfinnell@gmail.com>\n"
+"Language-Team: AppThemer <support@appthemer.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:13
+msgid "404!"
+msgstr ""
+
+#: ../404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../archive-campaigns.php:14
+#, php-format
+msgid "Discover %s"
+msgstr ""
+
+#: ../archive.php:37
+msgid "Archives"
+msgstr ""
+
+#: ../archive.php:43
+msgid "Category Archives"
+msgstr ""
+
+#: ../archive.php:45
+msgid "Tag Archives"
+msgstr ""
+
+#: ../archive.php:47
+msgid "Author Archives"
+msgstr ""
+
+#: ../archive.php:49
+msgid "Daily Archives"
+msgstr ""
+
+#: ../archive.php:51
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../archive.php:53
+msgid "Yearly Archives"
+msgstr ""
+
+#: ../author.php:19 ../content-campaign-author.php:27
+#, php-format
+msgctxt "1: Number of Campaigns 2: EDD Object"
+msgid "Created %1$d Campaign"
+msgid_plural "Created %1$d Campaigns"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:30
+#, php-format
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:36 ../comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:37 ../comments.php:49
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:38 ../comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-campaign-author.php:12
+msgid "About the Author"
+msgstr ""
+
+#: ../content-campaign-author.php:30
+msgid "View Profile"
+msgstr ""
+
+#: ../content-campaign-author.php:55
+msgid "Ask Question"
+msgstr ""
+
+#: ../content-campaign-sort.php:3
+msgid "Show"
+msgstr ""
+
+#: ../content-campaign-sort.php:9
+msgid "All"
+msgstr ""
+
+#: ../content-campaign-sort.php:27
+msgid "New this Week"
+msgstr ""
+
+#: ../content-campaign-sort.php:31
+msgid "Staff Picks"
+msgstr ""
+
+#: ../content-campaign.php:13 ../content-campaign.php:18
+#: ../content-post.php:11 ../content-post.php:16 ../content.php:24
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../content-campaign.php:26 ../footer.php:41
+#, php-format
+msgid "<strong>%s</strong> Funded"
+msgstr ""
+
+#: ../content-campaign.php:27
+#, php-format
+msgid "<strong>%s</strong> Pledged"
+msgstr ""
+
+#: ../content-campaign.php:30
+#, php-format
+msgid "<strong>%s</strong> Days to Go"
+msgstr ""
+
+#: ../content-campaign.php:32
+#, php-format
+msgid "<strong>%s</strong> Hours to Go"
+msgstr ""
+
+#: ../content.php:17
+#, php-format
+msgid "Date Posted: %s"
+msgstr ""
+
+#: ../content.php:18
+msgid " 0 Comments"
+msgstr ""
+
+#: ../content.php:18
+msgid "1 Comment"
+msgstr ""
+
+#: ../content.php:18
+msgid "% Comments"
+msgstr ""
+
+#: ../content.php:27
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content.php:30
+msgid "Pages:"
+msgstr ""
+
+#: ../content.php:31
+msgid "Tags:"
+msgstr ""
+
+#: ../content.php:32 ../single-campaign-edit.php:15
+#: ../inc/template-tags.php:63
+msgid "Edit"
+msgstr ""
+
+#: ../footer.php:38
+msgid "Get the Stats"
+msgstr ""
+
+#: ../footer.php:49
+#, php-format
+msgid "&copy; Copyright %s %s"
+msgstr ""
+
+#: ../functions.php:72
+msgid "Primary Left Menu"
+msgstr ""
+
+#: ../functions.php:73
+msgid "Primary Right Menu"
+msgstr ""
+
+#: ../functions.php:86
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:96
+#, php-format
+msgid "Footer Column %d"
+msgstr ""
+
+#: ../index.php:19
+msgid "The Blog"
+msgstr ""
+
+#: ../modal-campaign-widget.php:2
+msgid "Embed a widget on your site"
+msgstr ""
+
+#: ../modal-campaign-widget.php:9
+msgid ""
+"Help raise awareness for this campaign by sharing this widget. Simply paste "
+"the following HTML code most places on the web."
+msgstr ""
+
+#: ../modal-campaign-widget.php:11
+msgid "Embed Code"
+msgstr ""
+
+#: ../no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: ../no-results.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../no-results.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../search.php:16
+msgid "Search Results"
+msgstr ""
+
+#: ../searchform-campaign.php:11 ../searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: ../single-campaign.php:19 ../single.php:15
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../single-campaign.php:31
+msgid "Overview"
+msgstr ""
+
+#: ../single-campaign.php:34 ../single-campaign.php:182
+msgid "Updates"
+msgstr ""
+
+#: ../single-campaign.php:37
+msgid "Comments"
+msgstr ""
+
+#: ../single-campaign.php:38
+msgid "Backers"
+msgstr ""
+
+#: ../single-campaign.php:41
+msgid "Edit Campaign"
+msgstr ""
+
+#: ../single-campaign.php:59
+#, php-format
+msgid "Pledged of %s Goal"
+msgstr ""
+
+#: ../single-campaign.php:66
+msgctxt "number of backers for campaign"
+msgid "Backer"
+msgid_plural "Backers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../single-campaign.php:72
+msgid "Day to Go"
+msgid_plural "Days to Go"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../single-campaign.php:75
+msgid "Hour to Go"
+msgid_plural "Hours to Go"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../single-campaign.php:83 ../single-campaign.php:117
+msgid "Contribute Now"
+msgstr ""
+
+#: ../single-campaign.php:85
+#, php-format
+msgid "%s Expired"
+msgstr ""
+
+#: ../single-campaign.php:96
+#, php-format
+msgid "This %3$s will only be funded if at least %1$s is pledged by %2$s."
+msgstr ""
+
+#: ../single-campaign.php:98
+#, php-format
+msgid "All funds will be collected on %1$s."
+msgstr ""
+
+#: ../single-campaign.php:100
+#, php-format
+msgid "All pledges will be collected automatically until %1$s."
+msgstr ""
+
+#: ../single-campaign.php:130
+#, php-format
+msgid "Launched: %s"
+msgstr ""
+
+#: ../single-campaign.php:136
+#, php-format
+msgid "Funding Ends: %s"
+msgstr ""
+
+#: ../single-campaign.php:149
+msgid "Share this campaign"
+msgstr ""
+
+#: ../single-campaign.php:151
+#, php-format
+msgid "Check out %s on %s! %s"
+msgstr ""
+
+#: ../single-campaign.php:194
+msgid "No backers yet. Be the first!"
+msgstr ""
+
+#: ../inc/crowdfunding.php:27
+#, php-format
+msgid ""
+"<strong>Notice:</strong> To take advantage of all of the great features "
+"Fundify offers, please install the <a href=\"%s\">Crowdfunding by Astoundify "
+"plugin</a>. <a href=\"%s\" class=\"alignright\">Hide this message.</a>"
+msgstr ""
+
+#: ../inc/crowdfunding.php:121
+#, php-format
+msgid "Pledge %s"
+msgstr ""
+
+#: ../inc/crowdfunding.php:124
+#, php-format
+msgctxt "number of backers for pledge level"
+msgid "1 Backer"
+msgid_plural "%1$s Backers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/crowdfunding.php:127
+#, php-format
+msgid "Limited (%d of %d left)"
+msgstr ""
+
+#: ../inc/crowdfunding.php:129
+msgid "All gone!"
+msgstr ""
+
+#: ../inc/crowdfunding.php:152
+msgid "Enter your pledge amount"
+msgstr ""
+
+#: ../inc/crowdfunding.php:189
+#, php-format
+msgid "This %s has ended. No more pledges can be made."
+msgstr ""
+
+#: ../inc/crowdfunding.php:280
+msgid "Custom Pledging"
+msgstr ""
+
+#: ../inc/crowdfunding.php:281
+msgid "Allow arbitrary amounts to be pledged."
+msgstr ""
+
+#: ../inc/customizer.php:20
+msgid "Customize"
+msgstr ""
+
+#: ../inc/customizer.php:84
+msgid "General"
+msgstr ""
+
+#: ../inc/customizer.php:94
+msgid "Enable Responsive Design"
+msgstr ""
+
+#: ../inc/customizer.php:107
+msgid "Enable Fixed Header"
+msgstr ""
+
+#: ../inc/customizer.php:120
+msgid "Header Size"
+msgstr ""
+
+#: ../inc/customizer.php:125
+msgctxt "header size"
+msgid "Mini"
+msgstr ""
+
+#: ../inc/customizer.php:126
+msgctxt "header size"
+msgid "Normal"
+msgstr ""
+
+#: ../inc/customizer.php:153
+msgid "Hero Unit"
+msgstr ""
+
+#: ../inc/customizer.php:162
+msgid "Style"
+msgstr ""
+
+#: ../inc/customizer.php:167
+msgid "Grid"
+msgstr ""
+
+#: ../inc/customizer.php:168
+msgid "Single"
+msgstr ""
+
+#: ../inc/customizer.php:179 ../inc/customizer.php:316
+msgid "Hero Text"
+msgstr ""
+
+#: ../inc/customizer.php:199
+msgid "Accent Color"
+msgstr ""
+
+#: ../inc/customizer.php:209
+msgid "Footer"
+msgstr ""
+
+#: ../inc/customizer.php:219
+msgid "Text Color"
+msgstr ""
+
+#: ../inc/customizer.php:231
+msgid "Logo Image"
+msgstr ""
+
+#: ../inc/customizer.php:243
+msgid "Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:255
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/customizer.php:266
+msgid "Background Repeat"
+msgstr ""
+
+#: ../inc/customizer.php:270
+msgid "No Repeat"
+msgstr ""
+
+#: ../inc/customizer.php:271
+msgid "Tile"
+msgstr ""
+
+#: ../inc/customizer.php:272
+msgid "Tile Horizontally"
+msgstr ""
+
+#: ../inc/customizer.php:273
+msgid "Tile Vertically"
+msgstr ""
+
+#: ../inc/customizer.php:283
+msgid "Background Position"
+msgstr ""
+
+#: ../inc/customizer.php:287
+msgid "Left"
+msgstr ""
+
+#: ../inc/customizer.php:288
+msgid "Center"
+msgstr ""
+
+#: ../inc/customizer.php:289
+msgid "Right"
+msgstr ""
+
+#: ../inc/customizer.php:306
+msgid "Contact Page"
+msgstr ""
+
+#: ../inc/customizer.php:329
+msgid "Page Subtitle"
+msgstr ""
+
+#: ../inc/customizer.php:342
+msgid "Contact Address"
+msgstr ""
+
+#: ../inc/customizer.php:355
+msgid "Map Image"
+msgstr ""
+
+#: ../inc/extras.php:41
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/template-tags.php:46
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-tags.php:46
+msgid "(Edit)"
+msgstr ""
+
+#: ../inc/template-tags.php:56
+#, php-format
+msgid "%s"
+msgstr ""

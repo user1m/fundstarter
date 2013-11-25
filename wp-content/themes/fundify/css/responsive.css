@@ -1,0 +1,455 @@
+@media screen and (min-width: 1160px) {
+	#menu {
+		display: block !important;
+	}
+}
+
+@media screen and (max-width: 1160px) {
+	/**
+	 * Structure
+	 */
+	.container {
+		width: 90%;
+	}
+
+	input[type="submit"],
+	button {
+		-webkit-appearance: none;
+	}
+
+	/**
+	 * Menu
+	 */
+	body.fixed-header #header,
+	body #header {
+		padding: 30px 0;
+		position: absolute;
+		top: 0;
+	}
+
+	.menu-toggle {
+		font-size: 34px;
+		display: block;
+		float: right;
+		position: relative;
+		z-index: 10;
+		margin-top: -11px;
+	}
+
+	.menu-toggle i {
+		color: #565656;
+	}
+
+	body.admin-bar #header {
+		top: 0;
+	}
+
+	body.admin-bar {
+		padding-top: 0;
+	}
+
+	.site-title {
+		text-align: left;
+		position: relative;
+	}
+
+	#menu {
+		display: none;
+		padding: 40px;
+		position: absolute;
+		top: 83px;
+		background: #fff;
+		width: 100%;
+		left: 0;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:    border-box;
+		box-sizing:         border-box;
+	}
+
+	#menu ul {
+		float: none;
+		padding: 0;
+		margin: 0;
+		position: relative;
+		top: auto;
+	}
+
+	#menu .sub-menu {
+		margin-left: 20px;
+		display: block !important;
+		position: relative;
+		top: auto;
+		width: auto;
+		background: none;
+		border: 0;
+		padding: 0;
+	}
+	
+	#menu .right .sub-menu,
+	#menu .sub-menu .sub-menu,
+	#menu .right .sub-menu .sub-menu {
+		left: 0;
+		right: auto;
+	}
+
+	#menu ul .sub-menu li {
+		margin: 0;
+		padding: 0;
+	}
+
+	#menu li {
+		float: none;
+		height: auto;
+		padding: 0;
+	}
+
+	#menu .right {
+		float: none;
+	}
+
+	#menu .right li {
+		padding: 0;
+	}
+
+	#menu li a {
+		padding: 6px;
+		display: block;
+	}
+
+	#menu ul ul li a {
+		padding: 8px 0;
+	}
+
+	/**
+	* Hero Grid
+	*/
+	#home-page-featured {
+		height: auto;
+	}
+
+	#home-page-featured ul {
+		height: 120px;
+		overflow: hidden;
+	}
+
+	#home-page-featured img {
+		width: 120px;
+		height: 120px;
+	}
+
+	#home-page-featured h1,
+	#title-image h1 {
+		font-size: 20px;
+		line-height: 50px;
+		top: 26%;
+	}
+
+	/**
+	 * Projects
+	 */
+	#projects section {
+		margin-right: 0;
+	}
+
+	#projects .item {
+		margin-right: 3%;
+		width: 30%;
+	}
+
+	#projects .item:nth-child(4n) {
+		margin-right: 3%;
+	}
+
+	#projects .item:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	/**
+	 * Campaign
+	 */
+	.project-details .image,
+	#main-content {
+		width: 65%;
+	}
+
+	.project-details .right-side,
+	#sidebar {
+		width: 26%;
+	}
+
+	.project-details .image img {
+		max-width: 100%;
+		min-width: 100%;
+		height: auto;
+	}
+
+	/**
+	 * Footer
+	 */
+	#footer .footer-widget,
+	#footer .last-widget {
+		margin-right: 5%;
+		width: 20%;
+		float: left;
+	}
+
+	#footer .last-widget {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	/**
+	* Hero Grid
+	*/
+	#home-page-featured {
+		height: auto;
+	}
+
+	#home-page-featured ul {
+		height: 100px;
+		overflow: hidden;
+	}
+
+	#home-page-featured img {
+		width: 100px;
+		height: 100px;
+	}
+
+	#home-page-featured h1,
+	#title-image h1 {
+		font-size: 20px;
+		line-height: 50px;
+		top: 20%;
+	}
+
+	.home-page-featured-single,
+	#title-image {
+		min-height: 0;
+		height: 300px;
+	}
+
+	/**
+	 * Projects
+	 */
+	#projects .item {
+		margin-right: 5%;
+		width: 45%;
+	}
+
+	#projects .item:nth-child(4n),
+	#projects .item:nth-child(3n) {
+		margin-right: 5%;
+	}
+
+	#projects .item:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	/** 
+	 * Sorting
+	 */
+	.home .sort-tabs {
+		display: none;
+	}
+
+	#content .search-box {
+		float: none;
+		margin-bottom: 36px;
+		width: 100%;
+	}
+
+	/**
+	 * Campaign
+	 */
+	.project-details .image,
+	#main-content {
+		width: 100%;
+		float: none;
+	}
+
+	#main-content {
+		margin: 40px 0 0;
+	}
+
+	.project-details .right-side,
+	#sidebar {
+		width: 100%;
+		height: auto;
+		float: none;
+		clear: both;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:    border-box;
+		box-sizing:         border-box;
+	}
+
+	.project-details .fund {
+		clear: both;
+		margin: 30px 30px 0;
+		position: relative;
+		bottom: auto;
+	}
+
+	/**
+	 * Modals
+	 */
+	.campaign-widget-preview-widget,
+	.campaign-widget-preview-use {
+		width: 100%;
+		float: none;
+	}
+
+	.modal-login,
+	.modal-register {
+		margin: 10%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	/**
+	* Hero Grid
+	*/
+	#home-page-featured {
+		height: auto;
+	}
+
+	#home-page-featured ul {
+		height: 75px;
+		overflow: hidden;
+	}
+
+	#home-page-featured img {
+		width: 75px;
+		height: 75px;
+	}
+
+	#home-page-featured h1,
+	#title-image h1 {
+		font-size: 16px;
+		line-height: 40px;
+		top: 20%;
+	}
+
+	.home-page-featured-single,
+	#title-image {
+		height: 225px;
+	}
+
+	/**
+	 * Projects
+	 */
+	#projects .item {
+		width: 100%;
+	}
+
+	/**
+	 * Campaign
+	 */
+	.sort-tabs {
+		height: auto;
+	}
+
+	.sort-tabs ul {
+		float: none;
+	}
+
+	.sort-tabs li {
+		float: none;
+		margin: 0 0 20px;
+		width: 100%;
+	}
+
+	.sort-tabs li a {
+		text-align: center;
+		float: none;
+		width: 100%;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:    border-box;
+		box-sizing:         border-box;
+	}
+
+	/**
+	 * Main
+	 */
+	#main-content {
+		margin-top: 0;
+	}
+
+	/**
+	 * Footer
+	 */
+	#footer .footer-widget,
+	#footer .last-widget {
+		width: 100%;
+		margin: 0 0 40px;
+		float: none;
+	}
+
+	/**
+	 * Contact
+	 */
+	.contacts h2 {
+		width: auto;
+	}
+
+	/**
+	 * Modals
+	 */
+	.fundify_custom_price_wrap,
+	.modal .edd_purchase_submit_wrapper {
+		float: none;
+		width: 100%;
+	}
+
+	.modal .fundify_custom_price_wrap input[type="text"] {
+		width: 90%;
+	}
+
+	.modal .edd_purchase_submit_wrapper {
+		margin: 20px 0 0;
+	}
+
+	.modal .edd_purchase_submit_wrapper input[type="submit"] {
+		width: 100%;
+	}
+
+	.modal .edd_download_purchase_form .edd_price_options h3 {
+		float: none;
+	}
+
+	.modal .edd_download_purchase_form .edd_price_options .backer-count {
+		float: none;
+		margin: 5px 0 0;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	/**
+	* Hero Grid
+	*/
+	#home-page-featured h1,
+	#title-image h1 {
+		top: 30%;
+		font: 700 14px/24px 'Lato', sans-serif;
+	}
+
+	#home-page-featured h1 span,
+	#title-image h1 span {
+		display: inline;
+		margin: 0;
+		padding: 5px 0;
+	}
+
+	.title {
+		padding: 57px 0;
+		height: auto;
+	}
+
+	.title h1 {
+		padding: 0;
+	}
+}

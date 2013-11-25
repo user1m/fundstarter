@@ -1,0 +1,117 @@
+== Changelog ==
+
+= 1.4.3: July 30, 2013 =
+
+* New: Style support for selecting multiple categories.
+* New: Style support for donation-only campaign types.
+* Fix: Supress errors if EDD is not activated.
+* Fix: A few style tweaks.
+
+= 1.4.2: July 22, 2013 =
+
+* Fix: Pledge button styling for EDD 1.7.
+* Fix: Campaign tab behavior for Firefox 21+.
+* Fix: Shareable widget now pops up correctly.
+* Fix: A few style tweaks.
+
+= 1.4.1: July 5, 2013 =
+
+* Fix: Make sure the menu reappears after resizing.
+* Fix: Allow longer titles to expand when in mobile.
+
+= 1.4: June 25, 2013 =
+
+* New: Use Magnific Popup instead of Fancybox due to licensing. http://dimsemenov.com/plugins/magnific-popup/
+* New: Custom pledge amounts can be turned off. You will need to manually toggle back on to add support back.
+* New: Countdown will show "Hours to Go" on the last day.
+* Fix: Consistency between terms. Use "Campaign" instead of "Projects"
+* Fix: Don't stretch single images in Firefox
+* Fix: Fix contact page template responsive functionality.
+* Fix: Empty search strings now direct back to the search page.
+* Fix: Better support for different currency symbols when pledging custom amounts.
+* Fix: Better menu support on mobile.
+
+= 1.3.1: June 7, 2013 =
+
+* New: Don't try to load responsive CSS in child theme. Child themes can deregister if needed.
+* Fix: Don't try to load pledges that no longer exist, to avoid breaking page.
+* Fix: Custom pledge amounts now more compatible with different currency separators. 
+* Fix: Responsive scrolling menu fixes.
+* Fix: Single image fix on homepage for Firefox.
+* Tweaks: Other various tweaks/improvements.
+
+= 1.3: June 1, 2013 =
+
+* Note: This is a large update to the theme's codebase, as well as visual styles. The new features
+* and functionality require version 1.3 or higher of the Crowdfunding by Astoundify plugin.
+* Please make sure you make backups of your database, theme, etc.
+
+* New: Style upgrades. Set base font as "Lato" and improve visual cues throughout the theme.
+* New: Custom pledge amounts.
+* New: Login/Register/Pledge popup modals.
+* New: Sharable widgets and embed code.
+* New: Toggle responsive design on/off.
+* Fix: Complete rewrite of responsive functionality.
+* Fix: Complete Rewrite of all Javascript.
+* Fix: Facebook share button now includes proper prefilled data.
+* Fix: String improvements and updates.
+* Note: Removal of jQuery Isotope filtering do to poor usability.
+        Create a "New This Week" and "Staff Picks" page and assign respective templates to restore functionality.
+
+= 1.2: May 10, 2013 =
+
+* New: Display the number of campaigns on author bio.
+* Fix: Don't mess up JetPack share icons.
+* Fix: Display correct text when flexible funding is used on single campaign.
+* Fix: Update text strings.
+* Fix: Fix search results
+* Fix: Add sub sub navigation support.
+* Fix: Fix: Fix search icon for Firefox (again)
+
+= 1.1.1: April 22, 2013 =
+
+* New: Comments/Updates/Backers/Contact are now separated into separate pages (loaded via tabs) to reduce page size.
+* Fix: Comment CSS styling fixes.
+* Fix: Menu fixes for IE 8.
+* Fix: Search icon fix for Firefox
+
+= 1.1: April 8, 2013 = 
+
+* New: Category archives for campaigns now appear as a grid.
+* New: Better display of campaign author biography information.
+* New: Campaign contributors profile pages list their info and campaigns.
+* New: Sharing options on campaign page.
+* Fix: Display more relevant notes on inactive campaigns (depending on funding type).
+* Fix: Accent color in Theme Customizer now affects more items.
+* Fix: More consistent date formatting within campaign pages.
+* Fix: Don't show weird things on search page.
+
+= 1.0.4: April 1, 2013 =
+
+* Happy April Fools!
+* New: Allow child themes to use their CSS.
+* New: Added styling for the new campaign author profile shortcode.
+* Fix: Sidebar styling fixes.
+
+= 1.0.3: March 25, 2013 =
+
+* New: Use grid on search page.
+* Fix: Responsive fixes.
+* Fix: Other CSS tweaks.
+
+= 1.0.2: March 18, 2013 =
+
+* New: Add link to edit campaign if author.
+* New: Add way to contact author directly.
+* New: New template single-campaign-edit.php to edit campaign.
+* New: Filter by Featured/Staff picks on archives.
+* Fix: Better handle flex header sizes.
+* Fix: Include all strings in .pot file for translation.
+
+= 1.0.1: March 14, 2013 =
+
+* If not crowdfunding, allow the front page template to load blog posts instead.
+
+= 1.0: March 12, 2013 =
+
+First release!
